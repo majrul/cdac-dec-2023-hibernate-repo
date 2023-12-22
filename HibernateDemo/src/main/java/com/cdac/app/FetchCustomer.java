@@ -19,6 +19,7 @@ public class FetchCustomer {
 		System.out.println(customer.getDateOfBirth());
 		System.out.println(customer.getCity());
 		
+		
 		em.close();
 		emf.close();
 	}
